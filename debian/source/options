@@ -1,1 +1,4 @@
+# This tell dpkg-buildpackage to ignore directory created during
+# build, to make sure the package is rebuildable from the same source
+# directory.
 extend-diff-ignore = "^[^/]*[.]egg-info/"
