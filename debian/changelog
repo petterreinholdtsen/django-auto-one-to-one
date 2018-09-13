@@ -1,5 +1,5 @@
 django-auto-one-to-one (3.0.0-1) UNRELEASED; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #908723)
 
  -- Petter Reinholdtsen <pere@debian.org>  Wed, 12 Sep 2018 13:02:24 +0200
