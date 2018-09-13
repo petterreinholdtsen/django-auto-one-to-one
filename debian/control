@@ -19,8 +19,9 @@ Package: python-django-auto-one-to-one
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
 Suggests: python-django-auto-one-to-one-doc
-Description: <insert up to 60 chars description> (Python 2)
- <insert long description, indented with spaces>
+Description: Django module to automatically connect child model instances to parent class (Python 2)
+ This is very useful when associating more information with one of the
+ Django internal models like User
  .
  This package installs the library for Python 2.
 
@@ -28,7 +29,8 @@ Package: python3-django-auto-one-to-one
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
 Suggests: python-django-auto-one-to-one-doc
-Description: <insert up to 60 chars description> (Python 3)
- <insert long description, indented with spaces>
+Description: Django module to automatically connect child model instances to parent class (Python 3)
+ This is very useful when associating more information with one of the
+ Django internal models like User
  .
  This package installs the library for Python 3.
