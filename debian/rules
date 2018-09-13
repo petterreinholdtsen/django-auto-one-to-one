@@ -7,3 +7,6 @@ export PYBUILD_NAME=django-auto-one-to-one
 
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild
+
+override_dh_auto_test:
+	true
