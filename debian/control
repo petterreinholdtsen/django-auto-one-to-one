@@ -2,18 +2,22 @@ Source: django-auto-one-to-one
 Section: python
 Priority: optional
 Maintainer: Petter Reinholdtsen <pere@debian.org>
-Build-Depends: debhelper (>= 9), dh-python, python-all, python-setuptools, python3-all, python3-setuptools
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python3-all,
+               python3-setuptools
 Standards-Version: 3.9.8
 Homepage: https://chris-lamb.co.uk/projects/django-auto-one-to-one
 X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.2
-#Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/django-auto-one-to-one.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/django-auto-one-to-one.git/
-#Testsuite: autopkgtest-pkg-python
+Vcs-Git: https://github.com/petterreinholdtsen/django-auto-one-to-one
+Vcs-Browser: https://github.com/petterreinholdtsen/django-auto-one-to-one
 
 Package: python-django-auto-one-to-one
 Architecture: all
-Depends: ${python:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${python:Depends}
 Suggests: python-django-auto-one-to-one-doc
 Description: <insert up to 60 chars description> (Python 2)
  <insert long description, indented with spaces>
@@ -22,7 +26,7 @@ Description: <insert up to 60 chars description> (Python 2)
 
 Package: python3-django-auto-one-to-one
 Architecture: all
-Depends: ${python3:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}
 Suggests: python-django-auto-one-to-one-doc
 Description: <insert up to 60 chars description> (Python 3)
  <insert long description, indented with spaces>
@@ -32,7 +36,7 @@ Description: <insert up to 60 chars description> (Python 3)
 Package: python-django-auto-one-to-one-doc
 Architecture: all
 Section: doc
-Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${sphinxdoc:Depends}
 Description: <insert up to 60 chars description> (common documentation)
  <insert long description, indented with spaces>
  .
