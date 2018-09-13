@@ -15,20 +15,9 @@ Homepage: https://chris-lamb.co.uk/projects/django-auto-one-to-one
 Vcs-Git: https://github.com/petterreinholdtsen/django-auto-one-to-one
 Vcs-Browser: https://github.com/petterreinholdtsen/django-auto-one-to-one
 
-Package: python-django-auto-one-to-one
-Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
-Description: Django module to connect child model instances to parent class (Python 2)
- This is very useful when associating more information with one of the
- Django internal models like User.
- .
- This package installs the library for Python 2.
-
 Package: python3-django-auto-one-to-one
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
-Description: Django module to connect child model instances to parent class (Python 3)
+Description: Django module to connect child model instances to parent class
  This is very useful when associating more information with one of the
  Django internal models like User.
- .
- This package installs the library for Python 3.

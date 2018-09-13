@@ -6,7 +6,14 @@
 export PYBUILD_NAME=django-auto-one-to-one
 
 %:
-	dh $@ --with python2,python3 --buildsystem=pybuild
+	dh $@ --with python3 --buildsystem=pybuild
 
+# Get rid of python 2 files
+override_dh_auto_install:
+	dh_auto_install
+	$(RM) -r debian/python3-django-auto-one-to-one/usr/lib/python2*
+
+# Disable testing until it work with python 3, see
+# https://github.com/lamby/django-auto-one-to-one/issues/5
 override_dh_auto_test:
 	true
