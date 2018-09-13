@@ -32,12 +32,3 @@ Description: <insert up to 60 chars description> (Python 3)
  <insert long description, indented with spaces>
  .
  This package installs the library for Python 3.
-
-Package: python-django-auto-one-to-one-doc
-Architecture: all
-Section: doc
-Depends: ${misc:Depends}, ${sphinxdoc:Depends}
-Description: <insert up to 60 chars description> (common documentation)
- <insert long description, indented with spaces>
- .
- This is the common documentation package.
