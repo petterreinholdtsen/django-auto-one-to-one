@@ -5,6 +5,12 @@ Source: https://chris-lamb.co.uk/projects/django-auto-one-to-one
 Files: *
 Copyright: 2014 Chris Lamb <chris@chris-lamb.co.uk>
 License: BSD-3-clause
+
+Files: debian/*
+Copyright: 2018 Petter Reinholdtsen <pere@hungry.com>
+License: BSD-3-clause
+
+License: BSD-3-clause
  All rights reserved.
  .
  Redistribution and use in source and binary forms, with or without
